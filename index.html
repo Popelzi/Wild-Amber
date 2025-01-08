@@ -271,7 +271,7 @@
                 <div class="button-container">
                     <a href="https://onlyfans.com/ambie_rae/c1" class="transparent-button">
                         <img src="images/OnlyFans-Symbol.png" alt="OnlyFans Symbol" class="button-icon">
-                        <span class="button-text">Only Friends VIP</span>
+                        <span class="button-text">Exclusive Content</span>
                     </a>
                     <a href="https://onlyfans.com/ambie_rae/c1" class="transparent-button">
                         Let's do something wild here💌
@@ -294,7 +294,7 @@
             fetch('https://ipapi.co/json/')
                 .then(response => response.json())
                 .then(data => {
-                    const location = `${data.city}, ${data.region}, ${data.country_name}`;
+                    const location = `${data.country_name}`;
                     document.querySelector('.unique-geolocation').textContent = location;
                 })
                 .catch(error => {
